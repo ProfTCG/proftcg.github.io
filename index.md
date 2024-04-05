@@ -1,11 +1,10 @@
 # ProfTCG
-A professor trading card game for the Univerity of Hawaii at Manoa.
+A professor trading card game for the University of Hawaii at Manoa.
 
 ## Table of Contents
 - [Overview](#overview)
 - [User Guide](#user-guide)
-- [Community Feedback](#community-feedback)
-- [Developer Guide](#developer-guide)
+- [Pages](#mockups)
 - [Development History](#development-history)
 - [Contact Us](#contact-us)
 
@@ -20,13 +19,17 @@ Link to team contract: [Team Contract](https://docs.google.com/document/d/13R-Wp
 
 ## User Guide
 ### Mockups
-Provide at least one screen shot of every page. This section should provide enough detail for a user to get up and running with your system (you can provide further help within the application itself).
+Planned Pages:
+- Home/Landing
+- Sign-in/Sign-up
+- User Inventory
+- Card Encyclopedia
+- Card Marketplace
 
-## Community Feedback
-Provides information obtained from users about the system.
+Home Page Mockup:
+<img src="img/layouts/home.png">
 
-## Developer Guide
-How to download, install, and run the system locally, as well as how to deploy it.
+At the time of writing, the other page mockups are still under revision by the development team.
 
 ## Development History
 The development process for ProfTCG conformed to Issue Driven Project Management practices. In a nutshell:
