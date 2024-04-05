@@ -17,13 +17,13 @@ _The solution:_ Trading card games are very popular, and this neat twist involve
 ## User Guide
 ### Mockups
 Provide at least one screen shot of every page. This section should provide enough detail for a user to get up and running with your system (you can provide further help within the application itself).
-
+<!--
 ## Community Feedback
 Provides information obtained from users about the system.
 
 ## Developer Guide
 How to download, install, and run the system locally, as well as how to deploy it.
-
+-->
 ## Development History
 The development process for ProfTCG conformed to Issue Driven Project Management practices. In a nutshell:
 
