@@ -9,9 +9,11 @@ A professor trading card game for the University of Hawaii at Manoa.
 - [Contact Us](#contact-us)
 
 ## Overview
-The problem: Many students experience a sense of disconnection from their professors, whether it be due to large class sizes or even just a lack of personal interaction in small classes. Moreover, many are interested in learning more about their professors and have questions about what they are researching and the projects they are working on. However, it can be difficult to network and make connections with professors and ask those questions directly.
+### The problem
+Many students experience a sense of disconnection from their professors, whether it be due to large class sizes or even just a lack of personal interaction in small classes. Moreover, many are interested in learning more about their professors and have questions about what they are researching and the projects they are working on. However, it can be difficult to network and make connections with professors and ask those questions directly.
 
-The solution: Trading card games are very popular, and this neat twist involves the UH Manoa community and fosters a sense of belonging at the institution. It encourages students to make friends and bond with their classmates as well. During the semester, students can input courses to receive a trading card containing fun facts about their professor. Each trading card is unique to that semester and limited based on class size, thus encouraging students to collect trading cards of varying styles and rarity. Learning more about their research and projects may inspire students interested in conducting their own research and projects to come up with ideas and seek out potential mentors.
+### The solution
+Trading card games are very popular, and this neat twist involves the UH Manoa community and fosters a sense of belonging at the institution. It encourages students to make friends and bond with their classmates as well. During the semester, students can input courses to receive a trading card containing fun facts about their professor. Each trading card is unique to that semester and limited based on class size, thus encouraging students to collect trading cards of varying styles and rarity. Learning more about their research and projects may inspire students interested in conducting their own research and projects to come up with ideas and seek out potential mentors.
 
 Link to GitHub organization: [ProfTCG](https://github.com/proftcg)
 
@@ -26,8 +28,15 @@ Planned Pages:
 - Card Encyclopedia
 - Card Marketplace
 
-Home Page Mockup:
-<img src="img/layouts/home.png">
+<p style="font-weight: bold; text-align: center">Landing Page</p>
+
+<img src="img/layouts/landing-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+
+<p style="font-weight: bold; text-align: center">Home Page (User)</p>
+<img src="img/layouts/home-page-user.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+
+<p style="font-weight: bold; text-align: center">Home Page (Admin)</p>
+<img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
 At the time of writing, the other page mockups are still under revision by the development team.
 
