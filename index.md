@@ -6,6 +6,7 @@ A professor trading card game for the University of Hawaii at Manoa.
 - [User Guide](#user-guide)
 - [Pages](#mockups)
 - [Development History](#development-history)
+- [Deployment](#deployment)
 - [Contact Us](#contact-us)
 
 ## Overview
@@ -30,13 +31,13 @@ Planned Pages:
 
 <p style="font-weight: bold; text-align: center">Landing Page</p>
 
-<img src="img/layouts/landing-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="img/layouts/landing-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
 <p style="font-weight: bold; text-align: center">Home Page (User)</p>
-<img src="img/layouts/home-page-user.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="img/layouts/home-page-user.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
 <p style="font-weight: bold; text-align: center">Home Page (Admin)</p>
-<img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
 At the time of writing, the other page mockups are still under revision by the development team.
 
@@ -57,14 +58,13 @@ The goal of Milestone 1 was to create mockups of the pages in the system.
 
 Milestone 1 was managed using [ProfTCG GitHub Project Board M1](https://github.com/orgs/ProfTCG/projects/3).
 
-### Milestone 2: React page development
-The goal of Milestone 2 is to improve the functionality of the application.
+### Milestone 2: Improve functionality and quality
+The goal of Milestone 2 is to improve the functionality and quality of the application.
 
-Milestone 2 was manage using [ProfTCG Github Project Board 2](https://github.com/orgs/ProfTCG/projects/4).
+Milestone 2 was managed using [ProfTCG Github Project Board 2](https://github.com/orgs/ProfTCG/projects/4).
 
 ## Deployment
-
-Link to deployed application: [http://proftcg.me](http://proftcg.me)
+Link to deployed application: [https://proftcg.me](https://proftcg.me)
 
 ## Contact Us
 ProfTCG is developed by UH Manoa ICS students [Kent Burgess](https://github.com/KentHB), [Lucas Horsman](https://github.com/lucashorsman), [Donald Lipps](https://github.com/lippsd), [Samantha Mallari](https://github.com/samallari), and [Ethan Morrell](https://github.com/EthanMorrell). 
