@@ -53,9 +53,18 @@ The development process for ProfTCG conformed to Issue Driven Project Management
 - The following sections document the development history of ProfTCGs.
 
 ### Milestone 1: Mockup development
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+The goal of Milestone 1 was to create mockups of the pages in the system.
 
 Milestone 1 was managed using [ProfTCG GitHub Project Board M1](https://github.com/orgs/ProfTCG/projects/3).
+
+### Milestone 2: React page development
+The goal of Milestone 2 is to improve the functionality of the application.
+
+Milestone 2 was manage using [ProfTCG Github Project Board 2](https://github.com/orgs/ProfTCG/projects/4).
+
+## Deployment
+
+Link to deployed application: [http://proftcg.me](http://proftcg.me)
 
 ## Contact Us
 ProfTCG is developed by UH Manoa ICS students [Kent Burgess](https://github.com/KentHB), [Lucas Horsman](https://github.com/lucashorsman), [Donald Lipps](https://github.com/lippsd), [Samantha Mallari](https://github.com/samallari), and [Ethan Morrell](https://github.com/EthanMorrell). 
