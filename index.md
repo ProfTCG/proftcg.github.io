@@ -39,6 +39,15 @@ Planned Pages:
 <p style="font-weight: bold; text-align: center">Home Page (Admin)</p>
 <img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
+<p style="font-weight: bold; text-align: center">Encyclopedia Page</p>
+<img src="img/layouts/encyclopedia-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
+
+<p style="font-weight: bold; text-align: center">Sign-In Page</p>
+<img src="img/layouts/signin-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
+
+<p style="font-weight: bold; text-align: center">Sign-Out Page</p>
+<img src="img/layouts/signout-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
+
 At the time of writing, the other page mockups are still under revision by the development team.
 
 ## Development History
