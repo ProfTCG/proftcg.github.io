@@ -109,7 +109,7 @@ The goal of Milestone 3 is to significantly improve the functionality of the app
 
 Milestone 3 was managed using [ProfTCG GitHub Project Board 3](https://github.com/orgs/ProfTCG/projects/5/views/1).
 
-![ci-badge](https://github.com/ProfTCG/proftcg/workflows/proftcg/badge.svg)
-
 ## Contact Us
 ProfTCG is developed by UH Manoa ICS students [Kent Burgess](https://github.com/KentHB), [Lucas Horsman](https://github.com/lucashorsman), [Donald Lipps](https://github.com/lippsd), [Samantha Mallari](https://github.com/samallari), and [Ethan Morrell](https://github.com/EthanMorrell). 
+
+![ci-badge](https://github.com/ProfTCG/proftcg/workflows/proftcg/badge.svg)
