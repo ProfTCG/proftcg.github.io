@@ -4,9 +4,9 @@ A professor trading card game for the University of Hawaii at Manoa.
 ## Table of Contents
 - [Overview](#overview)
 - [User Guide](#user-guide)
-- [Pages](#mockups)
-- [Development History](#development-history)
+- [Developer Guide](#developer-guide)
 - [Deployment](#deployment)
+- [Development History](#development-history)
 - [Contact Us](#contact-us)
 
 ## Overview
@@ -21,34 +21,66 @@ Link to GitHub organization: [ProfTCG](https://github.com/proftcg)
 Link to team contract: [Team Contract](https://docs.google.com/document/d/13R-WpDwe0qNQMwgf0Ye_BV3I-foe-L_i/edit?usp=sharing&ouid=105648329603709146662&rtpof=true&sd=true)
 
 ## User Guide
-### Mockups
-Planned Pages:
-- Home/Landing
-- Sign-in/Sign-up
-- User Inventory
-- Card Encyclopedia
-- Card Marketplace
+This section provides an overview of the ProfTCG interface (available at https://proftcg.me).
 
-<p style="font-weight: bold; text-align: center">Landing Page</p>
-
+<h3 style="font-weight: bold; text-align: center">Landing Page</h3>
 <img src="img/layouts/landing-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
-<p style="font-weight: bold; text-align: center">Home Page (User)</p>
+<h3 style="font-weight: bold; text-align: center">Home Page (User)</h3>
 <img src="img/layouts/home-page-user.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
-<p style="font-weight: bold; text-align: center">Home Page (Admin)</p>
+<h3 style="font-weight: bold; text-align: center">Home Page (Admin)</h3>
 <img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
-<p style="font-weight: bold; text-align: center">Encyclopedia Page</p>
+<h3 style="font-weight: bold; text-align: center">Encyclopedia Page</h3>
 <img src="img/layouts/encyclopedia-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
-<p style="font-weight: bold; text-align: center">Sign-In Page</p>
+<h3 style="font-weight: bold; text-align: center">Sign-In Page<h3/>
 <img src="img/layouts/signin-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
-<p style="font-weight: bold; text-align: center">Sign-Out Page</p>
+<h3 style="font-weight: bold; text-align: center">Sign-Out Page</h3>
 <img src="img/layouts/signout-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
 
-At the time of writing, the other page mockups are still under revision by the development team.
+## Developer Guide
+### Downloading
+- Visit https://github.com/ProfTCG/proftcg
+- If making edits to the project:
+  - Create a new branch named `Issue-XX` (where "XX" is the issue you are addressing on the project board)
+- Clone the repository to your machine via the method of your choice
+
+### Installing
+- Open the branch in the IDE or text editor of your choice
+- If opening the project for the first time:
+  - Open a terminal instance
+  - Navigate to your repository
+  - Navigate to the `app` folder
+  - Run the following command to install dependencies: `meteor npm install`
+
+### Running
+- Open a terminal instance
+- Navigate to your repository
+- Navigate to the `app` folder
+- Optional: Reset the project database with `meteor reset`
+- Run the following command to run the application on your machine: `meteor npm run start`
+
+### Modifying and Testing
+- Make all changes on your machine (in the `Issue-XX` branch from earlier)
+- Open a terminal instance
+- Navigate to your repository
+- Navigate to the `app` folder
+- Run the following command to detect formatting errors: `npm run lint`
+  - Fix any errors that pop up
+  - Once formatting is correct, the ESLint should run without generating any errors
+- Run the following command to ensure that page functionality still works as expected: `meteor npm run testcafe`
+  - Ensure that your branch passes all tests
+
+### Publishing Changes
+- After successfully completing the previous step:
+  - Commit your changes to your branch via the method of your choice
+  - Optional: Create a pull request and wait for another developer to review your changes before merging your branch into `main`
+
+## Deployment
+Link to deployed application: [https://proftcg.me](https://proftcg.me)
 
 ## Development History
 The development process for ProfTCG conformed to Issue Driven Project Management practices. In a nutshell:
@@ -57,7 +89,7 @@ The development process for ProfTCG conformed to Issue Driven Project Management
 - Each Milestone is specified as a set of tasks.
 - Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
 - Tasks should typically consist of work that can be completed in 2-4 days.
-- The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
+- The work for each task is accomplished with a git branch named `Issue-XX`, where "XX" is replaced by the issue number.
 - When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
 - The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 - The following sections document the development history of ProfTCGs.
@@ -68,12 +100,15 @@ The goal of Milestone 1 was to create mockups of the pages in the system.
 Milestone 1 was managed using [ProfTCG GitHub Project Board M1](https://github.com/orgs/ProfTCG/projects/3).
 
 ### Milestone 2: Improve functionality and quality
-The goal of Milestone 2 is to improve the functionality and quality of the application.
+The goal of Milestone 2 was to implement our planned pages and improve the functionality and quality of the application.
 
-Milestone 2 was managed using [ProfTCG Github Project Board 2](https://github.com/orgs/ProfTCG/projects/4).
+Milestone 2 was managed using [ProfTCG GitHub Project Board 2](https://github.com/orgs/ProfTCG/projects/4).
 
-## Deployment
-Link to deployed application: [https://proftcg.me](https://proftcg.me)
+### Milestone 3: Add data and open project to public testing
+The goal of Milestone 3 is to significantly improve the functionality of the application, incorporate a significant amount of "real" data, and solicit feedback rom "real" users.
+
+Milestone 3 was managed using [ProfTCG GitHub Project Board 3](https://github.com/orgs/ProfTCG/projects/5/views/1).
+
 
 ## Contact Us
 ProfTCG is developed by UH Manoa ICS students [Kent Burgess](https://github.com/KentHB), [Lucas Horsman](https://github.com/lucashorsman), [Donald Lipps](https://github.com/lippsd), [Samantha Mallari](https://github.com/samallari), and [Ethan Morrell](https://github.com/EthanMorrell). 
