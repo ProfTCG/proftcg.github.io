@@ -1,0 +1,10 @@
+title: "ProfTCG"
+description: "A professor trading card game for the University of Hawaii at Manoa."
+google_analytics: # Add your Google Analytics tracking ID here
+show_downloads: false
+github:
+  is_project_page: true
+  repository_url: "https://github.com/proftcg/proftcg"
+plugins:
+  - jekyll-mentions
+  - jekyll-remote-theme

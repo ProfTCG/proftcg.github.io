@@ -1,2 +1,4 @@
 *.iml
 .idea
+.jekyll-cache
+_site
