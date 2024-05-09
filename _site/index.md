@@ -1,3 +1,14 @@
+<style>
+	.page {
+		border: 2px solid black;
+		margin-bottom: 48px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+		display: block;
+	}
+</style>
+
 # ProfTCG
 
 A professor trading card game for the University of Hawaii at Manoa.
@@ -20,7 +31,7 @@ Many students experience a sense of disconnection from their professors, whether
 
 ### The Solution
 
-Trading card games are very popular, and this neat twist involves the UH Manoa community and fosters a sense of belonging at the institution. It encourages students to make friends and bond with their classmates as well. During the semester, students can input courses to receive a trading card containing fun facts about their professor. Each trading card is unique to that semester and limited based on class size, thus encouraging students to collect trading cards of varying styles and rarity. Learning more about their research and projects may inspire students interested in conducting their own research and projects to come up with ideas and seek out potential mentors.
+Trading card games are very popular, and this neat twist involves the UH Manoa community and fosters a sense of belonging at the institution. It encourages students to make friends and bond with their classmates as well. Every 24 hours, students can open a card pack to receive a new trading card containing fun facts about their professor. Each trading card is unique to that semester and limited based on class size, thus encouraging students to collect trading cards of varying styles and rarity. Learning more about their research and projects may inspire students interested in conducting their own research and projects to come up with ideas and seek out potential mentors.
 
 Link to GitHub organization: [ProfTCG](https://github.com/proftcg)
 
@@ -30,29 +41,61 @@ Link to team contract: [Team Contract](https://docs.google.com/document/d/13R-Wp
 
 This section provides an overview of the ProfTCG interface (available at https://proftcg.me).
 
-<h3 style="font-weight: bold; text-align: center">Landing Page</h3>
-<img src="img/layouts/landing-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Landing Page</h3>
+<p>The landing page is first displayed to you upon visiting the top-level site URL. A randomized display of a few cards is available and are clickable.</p>
+<img class="page" src="img/layouts/landing-page.png" />
 
-<h3 style="font-weight: bold; text-align: center">Home Page (User)</h3>
-<img src="img/layouts/home-page-user.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Card Encyclopedia Page</h3>
+<p>A prospective user may want to look through the rest of our encyclopedia of cards to see our other interesting cards before signing up. Each card has a rarity, as well as a name and image associated with a professor in our ICS department.</p>
+<img class="page" src="img/layouts/encyclopedia-page.png" />
 
-<h3 style="font-weight: bold; text-align: center">Home Page (Admin)</h3>
-<img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Sign-Up Page</h3>
+<p>After getting an overview of the amazing cards you can collect, you'll be eager to sign up here!</p>
+<img class="page" src="img/layouts/signup-page.png" />
 
-<h3 style="font-weight: bold; text-align: center">Encyclopedia Page</h3>
-<img src="img/layouts/encyclopedia-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Sign-In Page</h3>
+<p>And when you come back to trade more cards, signing in will be just as easy.</p>
+<img class="page" src="img/layouts/signin-page.png" />
 
-<h3 style="font-weight: bold; text-align: center">Sign-In Page</h3>
-<img src="img/layouts/signin-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Home Page (User)</h3>
+<p>Upon signing in, you'll be presented with additional functionality in the navigation bar at the top. There is a marketplace for trading cards, a page for opening card packs, and a display of the cards in your collection.</p>
+<img class="page" src="img/layouts/home-page-user.png" />
 
-<h3 style="font-weight: bold; text-align: center">Sign-Out Page</h3>
-<img src="img/layouts/signout-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Home Page (Admin)</h3>
+<p>Admins get an extra Add Cards feature - we'll take a look at that later.</p>
+<img class="page" src="img/layouts/home-page-admin.png" />
+
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Card Marketplace Page</h3>
+<p>In the marketplace, a list of all the cards other users have put up for trade can be explored. You can take anyone up on their trade offer so long as your card has at least the same rarity as theirs.</p>
+<img class="page" src="img/layouts/marketplace-page.png" />
+<p>This is what it looks like after clicking Request Trade.</p>
+<img class="page" src="img/layouts/marketplace-page-aux.png" />
+
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Card Pack Page</h3>
+<p>Here you can open card packs. Currently, the only pack available is a Standard Pack, which can be opened once daily. It contains one card of any rarity.</p>
+<img class="page" src="img/layouts/cardpack-page.png" />
+
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Your Cards Page</h3>
+<p>Here your cards are displayed, sorted by rarity. So far, testJohn has only opened one card pack, so his only card is present within. Hopefully he can build up a better collection in the future!</p>
+<img class="page" src="img/layouts/yourcards-page.png" />
+<p>Every card - the ones on the landing page, home page, encyclopedia, and marketplace - can be clicked to open a text description containing colorful and informative tidbits that are interesting, relevant to one's studies, and sometimes, hopefully, funny.</p>
+<img class="page" src="img/layouts/yourcards-page-aux.png" />
+
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Add Cards Page (Admin)</h3>
+<p>Finally, we reach the special Admin Only feature - Add Cards. Here, an admin account can select a valid professor from our listing, assign the card a rarity and back description, and choose how many cards of that type are created (to then be opened in a card pack).</p>
+<img class="page" src="img/layouts/addcards-page.png" />
+<p>As you can see, so far we have only implemented UH Manoa ICS professors.</p>
+<img class="page" src="img/layouts/addcards-page-aux.png" />
+
+<h3 style="font-weight:bold; margin-top:48px; text-align:center">Sign-Out Page</h3>
+<p>We welcome you to come back soon upon signing out with a friendly .gif. Sadly, he does not move in this screenshot...</p>
+<img class="page" src="img/layouts/signout-page.png" />
 
 ## Developer Guide
 
 ### Downloading
 
-- Visit https://github.com/ProfTCG/proftcg
+- Visit [https://github.com/ProfTCG/proftcg](https://github.com/ProfTCG/proftcg)
 - If making edits to the project:
   - Create a new branch named `Issue-XX` (where "XX" is the issue you are addressing on the project board)
 - Clone the repository to your machine via the method of your choice
@@ -140,4 +183,3 @@ Milestone 3 was managed using [ProfTCG GitHub Project Board 3](https://github.co
 ## Contact Us
 
 ProfTCG is developed by UH Manoa ICS students [Kent Burgess](https://github.com/KentHB), [Lucas Horsman](https://github.com/lucashorsman), [Donald Lipps](https://github.com/lippsd), [Samantha Mallari](https://github.com/samallari), and [Ethan Morrell](https://github.com/EthanMorrell).
-
