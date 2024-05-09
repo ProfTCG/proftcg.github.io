@@ -9,14 +9,13 @@
 	}
 </style>
 
-# ProfTCG
-
 A professor trading card game for the University of Hawaii at Manoa.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [User Guide](#user-guide)
+- [Community Feedback](#community-feedback)
 - [Developer Guide](#developer-guide)
 - [Continuous Integration](#continuous-integration)
 - [Deployment](#deployment)
@@ -90,6 +89,34 @@ This section provides an overview of the ProfTCG interface (available at https:/
 <h3 style="font-weight:bold; margin-top:48px; text-align:center">Sign-Out Page</h3>
 <p>We welcome you to come back soon upon signing out with a friendly .gif. Sadly, he does not move in this screenshot...</p>
 <img class="page" src="img/layouts/signout-page.png" />
+
+## Community Feedback
+We asked users to test our deployed application and provide feedback on their experience. Here's a summary of what they said.
+
+**Likes**:
+- Users liked the project and the concept behind it. 
+- Some users found the descriptions interesting.
+- Users liked the visuals as well.
+
+**Dislikes**:
+- Users did not like the custom cursor design.
+- Some users reported that card descriptions overlapped with card previews on certain screen sizes/aspect ratios.
+- Others felt they should receive more than one card per day.
+
+**Navigation**:
+- Users found the site to be easy to navigate, giving an average rating of 4/5 (1 being poor, 5 being excellent).
+
+**Recommendation**:
+- On average, users were not willing to recommend the site to others, giving an average rating of 2/5 (1 being not at all likely, 5 being extremely likely).
+
+**Suggestions for Future Updates**:
+- Use a normal cursor
+  - The current cursor is too distracting for many users
+- Build user base
+  - As this is a community-driven app, the user base is currently too small for features like trading to work optimally
+- Add more features
+  - Currently, the making features of the app are trading and collecting
+  - More features like a leaderboard, game aspect, or the ability to view other users' collections could enhance the user experience
 
 ## Developer Guide
 
