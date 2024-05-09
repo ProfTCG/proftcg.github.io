@@ -33,17 +33,34 @@ This section provides an overview of the ProfTCG interface (available at https:/
 <h3 style="font-weight: bold; text-align: center">Landing Page</h3>
 <img src="img/layouts/landing-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
+<h3 style="font-weight: bold; text-align: center">Sign-Up Page</h3>
+<img src="img/layouts/signup-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Sign-In Page</h3>
+<img src="img/layouts/signin-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
 <h3 style="font-weight: bold; text-align: center">Home Page (User)</h3>
 <img src="img/layouts/home-page-user.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
 <h3 style="font-weight: bold; text-align: center">Home Page (Admin)</h3>
 <img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
-<h3 style="font-weight: bold; text-align: center">Encyclopedia Page</h3>
+<h3 style="font-weight: bold; text-align: center">Card Encyclopedia Page</h3>
 <img src="img/layouts/encyclopedia-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
-<h3 style="font-weight: bold; text-align: center">Sign-In Page</h3>
-<img src="img/layouts/signin-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight: bold; text-align: center">Card Marketplace Page</h3>
+<img src="img/layouts/marketplace-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<img src="img/layouts/marketplace-page-aux.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Card Pack Page</h3>
+<img src="img/layouts/cardpack-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Your Cards Page</h3>
+<img src="img/layouts/yourcards-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Add Cards Page (Admin)</h3>
+<img src="img/layouts/addcards-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<img src="img/layouts/addcards-page-aux.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
 <h3 style="font-weight: bold; text-align: center">Sign-Out Page</h3>
 <img src="img/layouts/signout-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
