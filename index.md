@@ -31,21 +31,53 @@ Link to team contract: [Team Contract](https://docs.google.com/document/d/13R-Wp
 This section provides an overview of the ProfTCG interface (available at https://proftcg.me).
 
 <h3 style="font-weight: bold; text-align: center">Landing Page</h3>
+The landing page is first displayed to you upon visiting the top-level site URL. A randomized display of a few cards is available and are clickable.
 <img src="img/layouts/landing-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
+<h3 style="font-weight: bold; text-align: center">Card Encyclopedia Page</h3>
+A prospective user may want to look through the rest of our encyclopedia of cards to see our other interesting cards before signing up. Each card has a rarity, as well as a name and image associated with a professor in our ICS department.
+<img src="img/layouts/encyclopedia-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Sign-Up Page</h3>
+After getting an overview of the amazing cards you can collect, you'll be eager to sign up here!
+<img src="img/layouts/signup-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Sign-In Page</h3>
+And when you come back to trade more cards, signing in will be just as easy.
+<img src="img/layouts/signin-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
 <h3 style="font-weight: bold; text-align: center">Home Page (User)</h3>
+Upon signing in, you'll be presented with additional functionality in the navigation bar at the top. There is a marketplace for trading cards, a page for opening card packs, and a display of the cards in your collection.
 <img src="img/layouts/home-page-user.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
 <h3 style="font-weight: bold; text-align: center">Home Page (Admin)</h3>
+Admins get an extra Add Cards feature - we'll take a look at that later.
 <img src="img/layouts/home-page-admin.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
-<h3 style="font-weight: bold; text-align: center">Encyclopedia Page</h3>
-<img src="img/layouts/encyclopedia-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight: bold; text-align: center">Card Marketplace Page</h3>
+In the marketplace, a list of all the cards other users have put up for trade can be explored. You can take anyone up on their trade offer so long as your card has at least the same rarity as theirs.
+<img src="img/layouts/marketplace-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+This is what it looks like after clicking Request Trade.
+<img src="img/layouts/marketplace-page-aux.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
-<h3 style="font-weight: bold; text-align: center">Sign-In Page</h3>
-<img src="img/layouts/signin-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+<h3 style="font-weight: bold; text-align: center">Card Pack Page</h3>
+Here you can open card packs. Currently, the only pack available is a Standard Pack, which can be opened once daily. It contains one card of any rarity. 
+<img src="img/layouts/cardpack-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Your Cards Page</h3>
+Here your cards are displayed, sorted by rarity. So far, testJohn has only opened one card pack, so his only card is present within. Hopefully he can build up a better collection in the future!
+<img src="img/layouts/yourcards-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+Every card - the ones on the landing page, home page, encyclopedia, and marketplace - can be clicked to open a text description containing colorful and informative tidbits that are interesting, relevant to one's studies, and sometimes, hopefully, funny.
+<img src="img/layouts/yourcards-page-aux.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+
+<h3 style="font-weight: bold; text-align: center">Add Cards Page (Admin)</h3>
+Finally, we reach the special Admin Only feature - Add Cards. Here, an admin account can select a valid professor from our listing, assign the card a rarity and back description, and choose how many cards of that type are created (to then be opened in a card pack).
+<img src="img/layouts/addcards-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+As you can see, so far we have only implemented UH Manoa ICS professors. 
+<img src="img/layouts/addcards-page-aux.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
 <h3 style="font-weight: bold; text-align: center">Sign-Out Page</h3>
+We welcome you to come back soon upon signing out with a friendly .gif. Sadly, he does not move in this screenshot...
 <img src="img/layouts/signout-page.png" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
 
 ## Developer Guide
